@@ -70,11 +70,9 @@ img {
 .showcase-top img {
   width: 170px;
   height: 40px;
-  /* margin: 25px 50px; */
   position: absolute;
   top: 40%;
   left: 5%;
-  /* transform: translate(0, -50%); */
 }
 
 .showcase-top a {
@@ -85,9 +83,6 @@ img {
 
 h1 {
   font-size: 3.5rem;
-  /* display: block;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em; */
   text-align: center;
 }
 
@@ -111,7 +106,6 @@ h1 {
 }
 
 .showcase-content h3 {
-  /* margin-top: 1.1rem; */
   font-weight: 300;
   font-size: 2.2rem;
   line-height: 1.25;
@@ -141,16 +135,6 @@ header {
   flex-direction: row;
 }
 
-/* TABS */
-
-/*  ON OWN */ /*
- .tab-1 {
-  display: flex;
-  flex-direction: row;
-  margin: 15px;
-  border-bottom: 8px solid #3d3d3d;
-} */
-
 .tab-1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -172,14 +156,6 @@ header {
   width: 600px;
 }
 
-/* .tab-1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 15px;
-} */
-
 .content {
   margin: 8rem;
   text-align: left;
@@ -198,7 +174,6 @@ header {
   margin: 0 0 2rem;
 }
 
-/* Footer */
 .footer {
   max-width: 75%;
   margin: 1rem auto;
@@ -225,7 +200,6 @@ header {
   line-height: 1.9;
 }
 
-/* Buttons */
 .btn {
   display: inline-block;
   width: 110px;
